@@ -3,7 +3,7 @@
 
 A simple and interactive banking system built with **Python** and **Streamlit**. This project simulates a Savings/Current account system, enabling users to create accounts, deposit and withdraw money, and check balances or interest — all from a friendly web UI.
 
-🌐 **Live App**: [Visit SIT Bank Streamlit App](https://banking-system-abhishekwekhande.streamlit.app/)
+🌐 **Live App**: [Visit SIT Bank Streamlit App](https://banking-system-abhi.streamlit.app/)
 
 ---
 
