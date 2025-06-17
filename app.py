@@ -73,13 +73,6 @@ def dashboard_ui():
             st.success(f"✅ Withdrawn ₹{withdraw_amount:.2f}")
         else:
             st.error("❌ Insufficient balance.")
-
-    # Interest Check
-    if isinstance(user, SavingsAccount):
-        if st.button("📈 Calculate Interest"):
-            interest = user.calculate_interest()
-            st.info(f"Interest earned: ₹{interest:.2f}")
-
     # Logout
     if st.button("🔒 Logout"):
         st.session_state.current_user = None
